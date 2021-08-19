@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    left: 0;
+    border: 0;
+}
+body{
+    font-family: 'Gowun Batang', serif;
+}
+ol, ul, li{
+    list-style: none;
+}

@@ -1,0 +1,351 @@
+.navbar {
+
+    width: 100%;
+    height: 50px;
+
+    background-color: rgb(53, 59, 59);
+    color: white;
+}
+
+.nav-list {
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.nav-list li {
+
+    margin-top: 5px;
+    font-size: 30px;
+
+}
+
+.nav-list li:hover {
+
+    color: white;
+    cursor: pointer;
+
+}
+
+/* tamanho dos conteudos */
+.conteudo1,
+.conteudo2,
+.conteudo3,
+.conteudo4,
+.conteudo5,
+.conteudo6,
+.conteudo7 {
+
+    height: 600px;
+    width: 100%;
+
+    background-color: rgb(207, 97, 97);
+}
+
+/* conteudo 1 */
+.conteudo1 {
+
+    background-size: cover;
+    background-color: rgb(177, 177, 177);
+    background-image: url(./img/75556-rio-de-janeiro-brazil-mountain-4k-ultra-hd-wallpaper__cityscapes.jpg);
+    background-position-y: center;
+    background-position-x: center;
+    background-blend-mode: multiply;
+
+
+}
+
+.conteudo1 h1 {
+
+    color: white;
+    color-interpolation-filters: initial;
+    font-size: 75px;
+    text-align: center;
+    padding: 90px;
+    padding-bottom: initial;
+    font-family: 'Pacifico', cursive;
+    font-feature-settings: "vjmo";
+    font-style: italic;
+    text-shadow: 5px 10px rgb(0, 0, 0)
+}
+
+.btn {
+
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    border-radius: 0.9em;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 555px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+.btn:hover,
+.btn:focus {
+    color: black;
+    background-color: rgb(0, 0, 0);
+    outline-color: black;
+    outline: 0;
+
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+
+
+
+/* conteudo 2 */
+.conteudo2 {
+    background-color: gray;
+    display: flex;
+}
+
+.c2a {
+
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: inherit;
+
+
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+.c2a p {
+
+    font-size: 80px;
+}
+
+.c2a h1 {
+    font-size: 30px;
+}
+
+
+
+
+.c2b {
+    padding: 100px;
+    height: 100%;
+    width: 50%;
+    background-color: #6A6A6A;
+}
+
+.c2a h1 span {
+    color: black;
+    font-style: italic;
+
+}
+
+input[type=text],
+select {
+    padding: 12px 20px;
+
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+}
+
+.form {
+
+    border-radius: 5px;
+    background-color: #6A6A6A;
+    padding: 20px;
+
+}
+
+/* conteudo 3 */
+.conteudo3 {
+
+    background: rgb(188,186,226);
+    background: radial-gradient(circle, rgba(188,186,226,1) 0%, rgba(144,144,153,1) 71%, rgba(30,31,32,1) 100%, rgba(172,198,203,1) 100%); 
+    height: 1000px;
+    padding: 10% 5%;
+
+}
+
+.linha {
+
+    background-color: #CCCCCC;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.card {
+
+    height: 400px;
+    width: 350px;
+    background-color: #9CDEFE;
+
+}
+
+
+
+.card-img {
+
+    height: 60%;
+    width: 100%;
+    background-color:white;
+
+
+    background-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.card-txt {
+
+    height: 40%;
+    width: 100%;
+    background-color: #9CDEFE;
+
+    border-bottom-left-radius: 10px;
+
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* conteudo 4 */
+.conteudo4 {
+
+    background-color: #6A6A6A;
+
+
+
+}
+
+
+.conteudo4 h1{
+    text-align: center;
+    padding: 20px;
+}
+
+table{
+    border: 4px solid white;
+    margin-left: 25%;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+th, td{ 
+    border: 2px solid white;
+    padding: 8px;
+    border-bottom: 1px black;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+    }
+
+tr:hover{
+    background-color: black;
+    color: white;
+}
+
+/* conteudo 5 */
+
+.conteudo5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    background: rgb(188,186,226);
+background: radial-gradient(circle, rgba(188,186,226,1) 0%, rgba(144,144,153,1) 71%, rgba(30,31,32,1) 100%, rgba(172,198,203,1) 100%);
+
+}
+
+.lista li{
+    text-decoration: underline;
+    font-size: 20px;
+    
+}
+.lista h1{
+    font-size: 40x;
+}
+.lista li:hover{
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* conteudo 6 */
+.conteudo6 {
+
+    background-color: rgb(233, 206, 53);
+    text-align: center;
+
+}
+
+/* conteudo 7 */
+.conteudo7 {
+
+    background-color: violet;
+
+}

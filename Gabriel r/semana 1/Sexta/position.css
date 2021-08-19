@@ -1,0 +1,65 @@
+.exemplo{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    line-height: 200px;
+    color:black;
+    text-transform: initial;
+    text-align: center;
+    cursor: pointer;
+}
+.ex1{
+
+
+    right: 0;
+    position: absolute;
+
+    
+    background-color: palegreen;
+  
+}
+
+.ex2{
+    top: 50%;
+    left: 50%;
+
+    
+    position: absolute;
+
+    background-color: rgb(201, 152, 201);
+    transform: translate(-50, -50);
+
+}
+.ex3{
+
+
+    width: 200px;
+    height: 200px;
+    
+    
+
+
+    
+    position: absolute;
+  
+    background-color: skyblue;
+
+
+}
+.exint{
+
+    
+    width: 100px;
+    height: 100px;
+    line-height: 101px;
+  
+    
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: navajowhite;
+}
